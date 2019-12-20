@@ -1,5 +1,9 @@
 # Moov Inc Compliance Program
 
+[![Build Status](https://travis-ci.com/moov-io/SOC2.svg?branch=master)](https://travis-ci.com/moov-io/SOC2)
+[![Apache 2 licensed](https://img.shields.io/badge/license-Apache2-blue.svg)](https://raw.githubusercontent.com/moov-io/SOC2/master/LICENSE)
+
+
 This repository consolidates all documents related to the Moov Inc Compliance Program.
 
 # Structure
