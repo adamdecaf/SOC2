@@ -1,0 +1,8 @@
+name: Moov Inc
+filePrefix: moov
+tickets:
+  github:
+    repo: github.com/moov-io/SOC2
+    token: 9f1636997584a6a9795574cef14e00a5906fc437
+    username: moov-bot
+approvedBranch: ""
