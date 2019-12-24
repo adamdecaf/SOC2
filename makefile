@@ -7,7 +7,8 @@ build:
 
 .PHONY: run
 run:
-	docker run -p 4000:4000 moov/soc2:$(VERSION)
+	mkdir -p ./nginx/cache/ ./nginx/run/
+	docker run --read-only --tmpfs /tmp -p 8080:8080 -v $(shell pwd)/nginx/cache/:/var/cache/nginx -v $(shell pwd)/nginx/run/:/var/run moov/soc2:$(VERSION)
 
 .PHONY: release-push
 release-push:
