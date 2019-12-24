@@ -1,4 +1,4 @@
-VERSION=v$(shell date +"%Y.%m.%d").1
+VERSION=v$(shell date -u +"%Y-%m-%d.%H%M")
 
 .PHONY: build
 build:
