@@ -6,7 +6,7 @@ satisfies:
     - CC6.5
     - P4.2
 majorRevisions:
-  - date: Jun 1 2018
+  - date: Jan 1 2020
     comment: Initial document
 ---
 
@@ -17,7 +17,7 @@ Appendix A: Retention Periods
 
 a. This data retention policy defines the objectives and requirements for data retention within the organization.
 
-a. This policy covers all data within the organization’s custody or control, irregardless of the medium the data is stored in (electronic form, paper form, etc.) Within this policy, the medium which holds data is referred to as information, no matter what form it is in.
+a. This policy covers all data within the organization’s custody or control, regardless of the medium the data is stored in (electronic form, paper form, etc.) Within this policy, the medium which holds data is referred to as information, no matter what form it is in.
 
 a. This policy applies to all users of information systems within the organization. This typically includes employees and contractors, as well as any external parties that come into contact with systems and information the organization owns or controls (hereinafter referred to as “users”). This policy must be made readily available to all users.
 
@@ -26,14 +26,14 @@ a. This policy applies to all users of information systems within the organizati
 a. The organization is bound by multiple legal, regulatory and contractual obligations with regard to the data it retains. These obligations stipulate how long data can be retained, and how data must be destroyed. Examples of legal, regulatory and contractual obligations include laws and regulations in the local jurisdiction where the organization conducts business, and contracts made with employees, customers, service providers, partners and others.
 
 a. The organization may also be involved in events such as litigation or disaster recovery scenarios that require it to have access to original information in order to protect the organization’s interests or those of its employees, customers, service providers, partners and others. As a result, the organization may need to archive and store information for longer that it may be needed for day-to-day operations.
- 
- \pagebreak 
+
+ \pagebreak
 
 # Policy
 
 a. *Information Retention*
 
-    i. Retention is defined as the maintenance of information in a production or live environment which can be accessed by an authorized user in the ordinary course of business. 
+    i. Retention is defined as the maintenance of information in a production or live environment which can be accessed by an authorized user in the ordinary course of business.
 
     i. Information used in the development, staging, and testing of systems shall not be retained beyond their active use period nor copied into production or live environments.
 
@@ -63,7 +63,7 @@ a. *Information Archiving*
 
         1. As a guideline, an archiving period of less than 7 years may be granted for information with a limited business purpose such as email, travel itineraries, pre-trip advisories, or to comply with specific legal, contractual and/or regulatory requirements (e.g., PCI DSS, GDPR, etc.)
 
-    i. Information must be destroyed (defined below) at the end of the elapsed archiving period.  
+    i. Information must be destroyed (defined below) at the end of the elapsed archiving period.
 
 a. *Information Destruction*
 
@@ -71,18 +71,16 @@ a. *Information Destruction*
 
     i. The organization must maintain and enforce a detailed list of approved destruction methods appropriate for each type of information archived, whether in physical storage media such as CD-ROMs, DVDs, backup tapes, hard drives, mobile devices, portable drives or in database records or backup files. Physical information in paper form must be shredded using an authorized shredding device; waste must be periodically removed by approved personnel.
 
-a. Retention and archival periods for information that is created, processed, stored and used by the organization is defined in Appendix A, “Retention Periods.” 
+a. Retention and archival periods for information that is created, processed, stored and used by the organization is defined in Appendix A, “Retention Periods.”
 
-\pagebreak 
+\pagebreak
 
-# Appendix A: Retention Periods 
+# Appendix A: Retention Periods
 
 +------------------+-------------------+------------------+------------------+-----------------+
 | Information Type | Information Owner | Storage Location | Retention Period | Archival Period |
 +==================+===================+==================+==================+=================+
-|                  |                   |                  |                  |                 |
-|                  |                   |                  |                  |                 |
+| Application Logs | Engineering | Google Cloud Storage | 90 days | 1 year |
 +------------------+-------------------+------------------+------------------+-----------------+
-|                  |                   |                  |                  |                 |
-|                  |                   |                  |                  |                 |
+| Database Data | Engineering | Google Cloud Storage | Indefinite | Indefinite |
 +------------------+-------------------+------------------+------------------+-----------------+

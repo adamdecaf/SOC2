@@ -4,7 +4,7 @@ satisfies:
   TSC:
     - CC9.1
 majorRevisions:
-  - date: Jun 1 2018
+  - date: Jan 1 2020
     comment: Initial document
 ---
 
@@ -36,9 +36,9 @@ a. The purpose of the risk treatment was to define the systematic means of reduc
 
 a. All risk assessment and treatment activities were completed within the scope of the organization’s information security program.
 
-a. The risk assessment was implemented in the period from [day/month/year] to [day/month/year]. The risk treatment was implemented from [day/month/year] to [day/month/year]. Final reports were prepared during [specify period].
+a. The risk assessment was implemented in the period from [day/month/year] to [day/month/year]. The risk treatment was implemented from [day/month/year] to [day/month/year]. Final reports were prepared during [specify period]. # TODO(adam)
 
-a. The risk assessment and risk treatment process was managed by [person responsible for managing the risk assessment process] with expert assistance provided by [person or company responsible for assistance].
+a. The risk assessment and risk treatment process was managed by [person responsible for managing the risk assessment process] with expert assistance provided by [person or company responsible for assistance]. # TODO(adam)
 
 a. During the risk assessment, information was collected through questionnaires and interviews with responsible persons, namely the asset owners across organizational units.
 
@@ -62,7 +62,7 @@ a. The process was conducted as follows:
     i. After controls were applied, residual risks were assessed.
 
 a. The following documents were used or generated during the implementation of risk assessment and risk treatment:
-    
+
     i. Risk Assessment Table (Appendix A): for each combination of systems , vulnerabilities and threats, this table shows the values for consequence and likelihood, and calculates the risk.
 
     i. Risk Treatment Table (Appendix B): defines the options for risk treatment, selection of controls for each unacceptable risk, and the level of residual risk.

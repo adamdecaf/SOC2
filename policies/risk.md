@@ -4,7 +4,7 @@ satisfies:
   TSC:
     - CC9.1
 majorRevisions:
-  - date: Jun 1 2018
+  - date: Jan 1 2020
     comment: Initial document
 ---
 
@@ -38,65 +38,65 @@ a. *Risk Assessment*
 
     i. Once risk owners are identified, they must assess:
 
-        1. Consequences for each combination of threats and vulnerabilities for an individual asset if such a risk materializes. 
+        1. Consequences for each combination of threats and vulnerabilities for an individual asset if such a risk materializes.
 
         1. Likelihood of occurrence of such a risk (i.e. the probability that a threat will exploit the vulnerability of the respective asset).
 
         1. Criteria for determining consequence and likelihood are defined in Tables 3 and 4.
-    
+
     i. The risk level is calculated by adding the consequence score and the likelihood score.
 
 +-----------------+-----------------+--------------------------------------------------------------+
-| **Consequence** | **Consequence** | **Description**                                              | 
+| **Consequence** | **Consequence** | **Description**                                              |
 | **Level**       | **Score**       |                                                              |
 +=================+=================+==============================================================+
-| Low             | 0               | Loss of confidentiality, integrity, or availability will not |     
-|                 |                 | affect the organization's cash flow, legal, or contractual   |                    
+| Low             | 0               | Loss of confidentiality, integrity, or availability will not |
+|                 |                 | affect the organization's cash flow, legal, or contractual   |
 |                 |                 | obligations, or reputation.                                  |
 +-----------------+-----------------+--------------------------------------------------------------+
-|                 |                 |                                                              |  
+|                 |                 |                                                              |
 +-----------------+-----------------+--------------------------------------------------------------+
-| Moderate        | 1               | Loss of confidentiality, integrity, or availability may incur|     
-|                 |                 | financial cost and has low or moderate impact on the         |                    
+| Moderate        | 1               | Loss of confidentiality, integrity, or availability may incur|
+|                 |                 | financial cost and has low or moderate impact on the         |
 |                 |                 | organization's legal or contractual obligations and/or       |
 |                 |                 | reputation.                                                  |
 +-----------------+-----------------+--------------------------------------------------------------+
-|                 |                 |                                                              |  
+|                 |                 |                                                              |
 +-----------------+-----------------+--------------------------------------------------------------+
-| High            | 2               | Loss of confidentiality, integrity, or availability will have|     
-|                 |                 | immediate and or/considerable impact on the organization's   |                    
+| High            | 2               | Loss of confidentiality, integrity, or availability will have|
+|                 |                 | immediate and or/considerable impact on the organization's   |
 |                 |                 | cash flow, operations, legal and contractual obligations,and/|
 |                 |                 | or reputation.                                               |
 +-----------------+-----------------+--------------------------------------------------------------+
-|                 |                 |                                                              |  
+|                 |                 |                                                              |
 +-----------------+-----------------+--------------------------------------------------------------+
 
 Table 3: Description of Consequence Levels and Criteria
 
 +-----------------+-----------------+--------------------------------------------------------------+
-| **Likelihood**  | **Likelihood**  | **Description**                                              | 
+| **Likelihood**  | **Likelihood**  | **Description**                                              |
 | **Level**       | **Score**       |                                                              |
 +=================+=================+==============================================================+
-| Low             | 0               | Either existing security controls are strong and have so far |     
-|                 |                 | provided an adequate level of protection, or the probability |                    
+| Low             | 0               | Either existing security controls are strong and have so far |
+|                 |                 | provided an adequate level of protection, or the probability |
 |                 |                 | of the risk being realized is extremely low. No new incidents|
 |                 |                 | are expected in the future.                                  |
 +-----------------+-----------------+--------------------------------------------------------------+
-|                 |                 |                                                              |  
+|                 |                 |                                                              |
 +-----------------+-----------------+--------------------------------------------------------------+
-| Moderate        | 1               | Either existing security controls have most provided an      |     
-|                 |                 | adequate level of protection or the probability of the risk  |                    
+| Moderate        | 1               | Either existing security controls have most provided an      |
+|                 |                 | adequate level of protection or the probability of the risk  |
 |                 |                 | being realized is moderate. Some minor incidents may have    |
-|                 |                 | occured. New incidents are possible, but not highly likely.  |
+|                 |                 | occurred. New incidents are possible, but not highly likely.  |
 +-----------------+-----------------+--------------------------------------------------------------+
-|                 |                 |                                                              |  
+|                 |                 |                                                              |
 +-----------------+-----------------+--------------------------------------------------------------+
 | High            | 2               | Either existing security controls are not in place or        |
-|                 |                 | ineffective; there is a high probability of the risk being   |                    
-|                 |                 | realized. Incidents have a high likelihood of occuring in the|
+|                 |                 | ineffective; there is a high probability of the risk being   |
+|                 |                 | realized. Incidents have a high likelihood of occurring in the|
 |                 |                 | future.                                             |
 +-----------------+-----------------+--------------------------------------------------------------+
-|                 |                 |                                                              |  
+|                 |                 |                                                              |
 +-----------------+-----------------+--------------------------------------------------------------+
 
 Table 4: Description of Likelihood Levels and Criteria
@@ -105,9 +105,9 @@ Table 4: Description of Likelihood Levels and Criteria
 
 b. *Risk Acceptance Criteria*
 
-    i. Risk values 0 through 2 are considered to be acceptable risks.
+    i. Risk value 0 is considered to be acceptable risks.
 
-    i. Risk values 3 and 4 are considered to be unacceptable risks. Unacceptable risks must be treated.
+    i. Risk values 1 and 2 are considered to be unacceptable risks. Unacceptable risks must be treated.
 
 c. *Risk Treatment*
 
@@ -134,4 +134,3 @@ a. *Regular Reviews of Risk Assessment and Risk Treatment*
 a. *Reporting*
 
     i. The results of risk assessment and risk treatment, and all subsequent reviews, shall be documented in a Risk Assessment Report.
-

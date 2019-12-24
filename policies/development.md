@@ -4,7 +4,7 @@ satisfies:
   TSC:
     - CC8.1
 majorRevisions:
-  - date: Jun 1 2018
+  - date: Jan 1 2020
     comment: Initial document
 ---
 
@@ -94,7 +94,7 @@ a. The following must be completed/considered during the architecture and design
 
     i. Perform a design review, which must include, at a minimum, technical reviews of application and infrastructure, as well as a review of high-level processes.
 
-    i. Describe detailed security processes and procedures, including: segregation of duties and segregation of development, testing and production environments. 
+    i. Describe detailed security processes and procedures, including: segregation of duties and segregation of development, testing and production environments.
 
     i. Design initial end-user training and awareness programs.
 
@@ -124,7 +124,7 @@ a. The following must be completed and/or considered during the development phas
 
 a. The following must be completed and/or considered during the testing phase:
 
-    i. Perform a code and configuration review through both static and dynamic analysis of code to identify vulnerabilities. 
+    i. Perform a code and configuration review through both static and dynamic analysis of code to identify vulnerabilities.
 
     i. Test configuration procedures.
 
@@ -157,7 +157,7 @@ a. The following must be completed and/or considered during the operations/maint
 
         1. Tuning performance.
 
-        1. Performing backups according to requirements defined in the System Availability Policy 
+        1. Performing backups according to requirements defined in the System Availability Policy
 
         1. Performing system maintenance (i.e., testing and applying security updates and patches).
 
@@ -192,4 +192,3 @@ a. The following must be completed and/or considered during the decommission pha
     i. Update the organization’s policies, standards and procedures, if appropriate.
 
     i. Assess and document how to mitigate residual application and infrastructure vulnerabilities.
-

@@ -4,7 +4,7 @@ satisfies:
   TSC:
     - CC6.2
 majorRevisions:
-  - date: Jun 1 2018
+  - date: Jan 1 2020
     comment: Initial document
 ---
 
@@ -58,7 +58,7 @@ a. The following security best practices must be considered and, if feasible, ap
 
     i. Implement a change management process for changes to existing software applications.
 
-    i. Standard configuration of the application must be documented. 
+    i. Standard configuration of the application must be documented.
 
     i. Default passwords used within the application, such as for administrative control panels or integration with databases must be changed immediately upon installation.
 
@@ -115,4 +115,3 @@ a. The following security assessment types may be leveraged to perform an applic
     i. Disaster recovery and business continuity management policy is defined in the Disaster Recovery Policy (reference (f)).
 
     i. Requirements for information system availability and redundancy are defined in the System Availability Policy (reference (g)).
-

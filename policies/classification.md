@@ -4,10 +4,10 @@ satisfies:
   TSC:
     - CC9.9
 majorRevisions:
-  - date: Jun 1 2018
+  - date: Jan 1 2020
     comment: Initial document
 ---
-# Appendices 
+# Appendices
 
 Appendix A: Handling of Classified Information
 
@@ -43,37 +43,37 @@ a. When classifying information, the level of confidentiality is determined by:
 
     i. Sensitivity and criticality of the information, based on the highest risk calculated for each information item during the risk assessment.
 
-    i. Legal, regulatory and contractual obligations. 
+    i. Legal, regulatory and contractual obligations.
 
 
 +-------------------+------------------+---------------------------+---------------------------+
 |**Confidentiality**| **Label**        |  **Classification**       |  **Access**               |
 |     **Level**     |                  |   **Criteria**            | **Restrictions**          |
 +===================+==================+===========================+============================+
-| Public            | For Public       | Making the information    | Information is available  |   
+| Public            | For Public       | Making the information    | Information is available  |
 |                   | Release          | public will not harm      | to the public.            |
-|                   |                  | the organization in       |                           |        
+|                   |                  | the organization in       |                           |
 |                   |                  | any way.                  |                           |
 +-------------------+------------------+---------------------------+---------------------------+
 |                   |                  |                           |                           |
 +-------------------+------------------+---------------------------+---------------------------+
 | Internal Use      | Internal Use     | Unauthorized access       | Information is available  |
-|                   |                  | may cause minor damage    | to all employees and      |   
-|                   |                  | and/or inconvenience      | authorized third parties. |        
-|                   |                  | to the organization.      | 
+|                   |                  | may cause minor damage    | to all employees and      |
+|                   |                  | and/or inconvenience      | authorized third parties. |
+|                   |                  | to the organization.      |
 +-------------------+------------------+---------------------------+---------------------------+
 |                   |                  |                           |                           |
 +-------------------+------------------+---------------------------+---------------------------+
 | Restricted        | Restricted       | Unauthorized access to    | Information is available  |
 |                   |                  | information may cause     | to a specific group of    |
-|                   |                  | considerable damage to    | employees and authhorized |
+|                   |                  | considerable damage to    | employees and authorized |
 |                   |                  | the business and/or       | third parties.            |
 |                   |                  | the organization's        |                           |
-|                   |                  | reputation.               |                           |           
+|                   |                  | reputation.               |                           |
 +-------------------+------------------+---------------------------+---------------------------+
 |                   |                  |                           |                           |
 +-------------------+------------------+---------------------------+---------------------------+
-| Confidential      |Confidential      | Unauthorized access to    | Information is available  |           
+| Confidential      |Confidential      | Unauthorized access to    | Information is available  |
 |                   |                  | information may cause     | only to specific indivi-  |
 |                   |                  | catastrophic damage to    | duals in the              |
 |                   |                  | business and/or the       | organization.             |
@@ -103,31 +103,31 @@ a. Information must be labeled according to the following:
     i. Electronic documents: the confidentiality level is indicated on the top and bottom of each document page. If a document is not labeled, its default classification is Internal Use.
 
     i. Information systems: the confidentiality level in applications and databases must be indicated on the system access screen, as well as on the screen when displaying such information.
-    
+
     i. Electronic mail: the confidentiality level is indicated in the first line of the email body. If it is not labeled, its default classification is “Internal Use”.
-    
+
     i. Electronic storage media (disks, memory cards, etc.): the confidentiality level must be indicated on the top surface of the media. If it is not labeled, its default classification is “Internal Use”.
-    
+
     i. Information transmitted orally: the confidentiality level should be mentioned before discussing information during face-to-face communication, by telephone, or any other means of oral communication.
-    
+
 a. All persons accessing classified information must follow the guidelines listed in Appendix A, “Handling of Classified Information.”
 
 a. All persons accessing classified information must complete and submit a Confidentiality Statement to their immediate supervisor or company point-of-contact. A sample Confidentiality Statement is in Appendix B.
 
 a. Incidents related to the improper handling of classified information must be reported in accordance with the Security Incident Management Policy (reference (b)).
     
-\pagebreak 
+\pagebreak
 
 # Appendix A: Handling of Classified Information
 
 Information and information systems must be handled according to the following guidelines*:
 
 a. Paper Documents
-    
+
     i. Internal Use
 
         1. Only authorized persons may have access.
-        
+
         1. If sent outside the organization, the document must be sent as registered mail.
 
         1. Documents may only be kept in rooms without public access.
@@ -149,7 +149,7 @@ a. Paper Documents
         1. Only the document owner may destroy the document.
 
     i. Confidential
-      
+
         1. The document must be stored in a safe.
 
         1. The document may be transferred within and outside the organization only by a trustworthy person in a closed and sealed envelope.
@@ -278,8 +278,5 @@ a. Information Transmitted Orally
 
         1. No transcript of the conversation may be kept.
 
-In this document, controls are implemented cumulatively, meaning that controls for any confidentiality level imply the implementation of controls defined for lower confidentiality levels - if stricted controls are prescribed for a higher confidentiality level, then only such controls are implemented.
+In this document, controls are implemented cumulatively, meaning that controls for any confidentiality level imply the implementation of controls defined for lower confidentiality levels - if restricted controls are prescribed for a higher confidentiality level, then only such controls are implemented.
 
-
-
-

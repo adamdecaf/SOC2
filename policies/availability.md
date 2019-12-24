@@ -5,7 +5,7 @@ satisfies:
     - A1.1
     - CC9.1
 majorRevisions:
-  - date: Jun 1 2018
+  - date: Jan 1 2020
     comment: Initial document
 ---
 
@@ -39,7 +39,7 @@ a. Prior to production use, each new or significantly modified application must 
 
 a. Capacity management and load balancing techniques must be used, as deemed necessary, to help minimize the risk and impact of system failures.
 
-a. Information systems  must have an appropriate data backup plan that ensures:
+a. Information systems must have an appropriate data backup plan that ensures:
 
     i. All sensitive data can be restored within a reasonable time period.
 
@@ -63,7 +63,7 @@ a. Information systems  must have an appropriate redundancy and failover plan th
 
 a. Information systems must have an appropriate business continuity plan that meets the following criteria:
 
-    i. Recovery time and data loss limits are defined in Table 3. 
+    i. Recovery time and data loss limits are defined in Table 3.
 
     i. Recovery time requirements and data loss limits must be adhered to with specific documentation in the plan.
 
@@ -97,4 +97,4 @@ a. Information systems must have an appropriate business continuity plan that me
 |                   |                  |               |                   | restoration      |
 +-------------------+------------------+---------------+-------------------+------------------+
 
-Table 3: Recovery Time and Data Loss Limits 
+Table 3: Recovery Time and Data Loss Limits

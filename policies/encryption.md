@@ -4,7 +4,7 @@ satisfies:
   TSC:
     - CC9.9
 majorRevisions:
-  - date: Jun 1 2018
+  - date: Jan 1 2020
     comment: Initial document
 ---
 # Purpose and Scope
@@ -21,37 +21,37 @@ a. This policy defines the high level objectives and implementation instructions
 
 # Policy
 
-a. The organization must protect individual systems or information by means of cryptographic controls as defined in Table 3: 
+a. The organization must protect individual systems or information by means of cryptographic controls as defined in Table 3:
 
-\pagebreak 
+\pagebreak
 
 +---------------------+-------------------+----------------+--------------+
 | **Name of System/** | **Cryptographic** | **Encryption** | **Key Size** |
 | **Type of**         | **Tool**          | **Algorithm**  |              |
 | **Information**     |                   |                |              |
 +=====================+===================+================+==============+
-| Public Key          |  OpenSSL          | AES-256        | 256-bit key  |
-| Infrastructure for  |                   |                |              |
-| Authentication      |                   |                |              |
+| Public Key         | Go | AES-256 | 256-bit key |
+| Infrastructure for |    |         |             |
+| Authentication     |    |         |             |
 +---------------------+-------------------+----------------+--------------+
 |                     |                   |                |              |
 +---------------------+-------------------+----------------+--------------+
-| Data Encryption     |  OpenSSL          | AES-256        | 256-bit key  |
-| Keys                |                   |                |              |
+| Data Encryption | Go | AES-256 | 256-bit key |
+| Keys            |    |         |             |
 +---------------------+-------------------+----------------+--------------+
 |                     |                   |                |              |
 +---------------------+-------------------+----------------+--------------+
-| Virtual Private     |  OpenSSL and      | AES-256        | 256-bit key  |
-| Network (VPN)       |  OpenVPN          |                |              |
-| keys                |                   |                |              |
+| Virtual Private | N/A | AES-256 | 256-bit key |
+| Network (VPN)   |     |         |             |
+| keys            |     |         |             |
 +---------------------+-------------------+----------------+--------------+
 |                     |                   |                |              |
 +---------------------+-------------------+----------------+--------------+
-| Website SSL         |  OpenSSL, CERT    | AES-256        | 256-bit key  |
-| Certificate         |                   |                |              | 
+| Website TLS | Go | TLS 1.2, 1.3 | 2048-bit key |
+| Certificate |    |              |              |
 +---------------------+-------------------+----------------+--------------+
 
-Table 3: Cryptographic Controls 
+Table 3: Cryptographic Controls
 
 &nbsp;
 
@@ -78,5 +78,3 @@ a. All key management must be performed using software that automatically manage
   i. The key management service must store and backup keys for the entirety of their operational lifetime.
 
   i. The key management service must rotate keys at least once every 12 months.
-
-
