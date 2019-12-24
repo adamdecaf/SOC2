@@ -10,7 +10,7 @@ satisfies:
     - CC3.2
     - CC3.3
 majorRevisions:
-  - date: Jun 1 2018
+  - date: Jan 1 2020
     comment: Initial document
 ---
 
@@ -22,7 +22,7 @@ The intent of this description is to establish both the legal jurisdiction and c
 
 # Entity Type
 
-{{.Name}} is a Delaware C-Corporation headquartered in San Francisco, California. {{.Name}} was established in 1970.
+{{.Name}} is an Iowa C-Corporation headquartered in Bettendorf, Iowa. {{.Name}} was established in 2016.
 
 # Integrity and Ethics
 
@@ -36,17 +36,16 @@ The Board of Directors appoints and oversees the Chief Executive Officer (CEO).
 
 # Organizational Structure
 
-{{.Name}} is composed of 7 primary divisions:
+{{.Name}} is composed of 5 primary divisions:
 
   * Sales
   * Marketing
-  * Manufacturing
   * Research & Development
   * Information Technology
   * Human Resources
-  * Finance
+  <!-- * Finance -->
 
-Each division is led by a Vice President, who in turn reports to the CEO. A complete Organization Chart is maintained and distributed by Human Resources.
+Each division is led by the CEO. A complete Organization Chart is maintained and distributed by Human Resources.
 
 # Management Objectives
 

@@ -4,9 +4,25 @@ name: "Onboard New User"
 
 Resolve this ticket by executing the following steps:
 
-- [ ] Append HR add request e-mail to this ticket
-- [ ] Proactively validate role assignment with manager (see HR request e-mail)
-- [ ] Add user to default group for the specified role
-- [ ] Provision any manually-provisioned applications by role
-    - [ ] Append manual provisioning confirmation to this ticket
-- [ ] Proactively confirm with new user that they can access all provisioned systems
+# Everyone
+
+- [ ] Setup G Suite Account / Email
+- [ ] Add user to Slack Organization
+- [ ] Validate role assignment with manager (see HR request e-mail)
+- [ ] Announce New Hire to Employees and Community
+- [ ] Confirm with new user that they can access all provisioned systems
+
+## Software Engineer
+
+- [ ] Issue them a hardware token for multi-factor auth
+- [ ] Add the employees GitHub account to our [moov-io organization](https://github.com/moov-io)
+- [ ] Authorize TravisCI via GitHub
+- [ ] Authorize Codecov via GitHub
+
+If the employee will be responsible for deployments create the following accounts for them
+
+- [ ] PagerDuty
+
+## Sales
+
+TODO(adam): TODO(wade): Sales job onboarding
