@@ -6,7 +6,7 @@ satisfies:
     - CC6.2
     - CC6.7
 majorRevisions:
-  - date: Jun 1 2018
+  - date: Jan 1 2020
     comment: Initial document
 ---
 
@@ -26,7 +26,7 @@ a. Within this policy, the following definitions apply:
 
     i. *Remote host:* is defined as an information system, node or network that is not under direct control of the organization.
 
-    i. *Telework:* the act of using mobile computing equipment and remote hosts to perform work outside the organization’s physical premises. Teleworking does not include the use of mobile phones.
+    i. *Remote work:* the act of using mobile computing equipment and remote hosts to perform work outside the organization’s physical premises. Remote work does not include the use of mobile phones.
 
 # Policy
 
@@ -42,18 +42,18 @@ a. *Security Requirements for Remote Hosts and Mobile Computing Equipment*
 
     i. Persons using mobile computing equipment off-premises are responsible for regular backups of organizational data that resides on the the device.
 
-    i. Access to the organization’s systems must be done through an encrypted and authenticated VPN connection with multi-factor authentication enabled. All users requiring remote access must be provisioned with VPN credentials from the organization’s information technology team. VPN keys must be rotated at least twice per year. Revocation of VPN keys must be included in the Offboarding Policy. 
+    i. Access to the organization’s systems must be done through an encrypted and authenticated VPN connection with multi-factor authentication enabled. All users requiring remote access must be provisioned with VPN credentials from the organization’s information technology team. VPN keys must be rotated at least twice per year. Revocation of VPN keys must be included in the Offboarding Policy.
 
     i. Information stored on mobile computing equipment must be encrypted using hard drive full disk encryption.
 
-a. *Security Requirements for Telework*
+a. *Security Requirements for Remote work*
 
-    i. Employees must be specifically authorized for telework in writing from their hiring manager .
+    i. Employees must be specifically authorized for remote work in writing from their hiring manager.
 
-    i. Only device’s assigned owner is permitted to use remote nodes and mobile computing equipment. Unauthorized users (such as others living or working at the location where telework is performed) are not permitted to use such devices.
+    i. Only device’s assigned owner is permitted to use remote nodes and mobile computing equipment. Unauthorized users (such as others living or working at the location where remote work is performed) are not permitted to use such devices.
 
-    i. Devices must be authorized using certificates
+    i. Devices must be authorized using certificates.
 
-    i. Users performing telework are responsible for the appropriate configuration of the local network used for connecting to the Internet at their telework location.
+    i. Users performing remote work are responsible for the appropriate configuration of the local network used for connecting to the Internet at their remote work location.
 
-    i. Users performing telework must protect the organization’s intellectual property rights, either for software or other materials that are present on remote nodes and mobile computing equipment.
+    i. Users performing remote work must protect the organization’s intellectual property rights, either for software or other materials that are present on remote nodes and mobile computing equipment.

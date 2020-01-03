@@ -1,7 +1,7 @@
 name: Products and Services Narrative
 acronym: PSN
 majorRevisions:
-  - date: Jun 1 2018
+  - date: Jan 1 2020
     comment: Initial document
 ---
 
@@ -11,30 +11,47 @@ Here we describe the key products marketed by our organization
 
 # Products
 
-## Product 1
+## Open Source
 
-Overview of product 1
+{{ .Name }} Open Source is a suite of services, libraries and APIs designed for common automation of banking transactions. These include parsers for digital formats, automated banking engines, ledger and records keeping, and compliance frameworks.
 
 ### Architecture
 
-Brief architectural discussion of product 1
+- Parsers
+  - ACH, ImageCashLetter, X9, Watchman (OFAC, BIS, etc.), FED Wire
+- Automated Banking Engines
+  - PayGate
+- Ledger and Records Keeping
+  - Accounts, Customers, PayGate
+- Compliance Frameworks
+  - Customers, FED, Watchman
 
 ### Security Considerations
 
-Specific security considerations for product 1. Refer to policies, procedures here.
+{{ .Name }} uses several industry standard policies for operating secure software systems. These include automated software complication and packaging, input fuzzing, community review, and automated dependency updates.
+
+## Hosted API
+
+{{ .Name }} API is a hosted solution running the latest releases of our suite of projects. This API is secured and monitored regularly by our software team.
+
+### Architecture
+
+We run our API on Google's hosted Kubernetes product on their Cloud Platform. Load balancers are ran to route and inspect traffic before a handoff to our applications.
+
+### Security Considerations
+
+{{ .Name }} uses several industry standard policies for operating secure software systems. These include automated software complication and packaging, input fuzzing, community review, and automated dependency updates.
 
 # References
 
 ## Narratives
 
-List relevant narratives, probably including
 Organizational Narrative
 Security Narrative
 System Narrative
 
 ## Policies
 
-List relevant policies, probably including
 Application Security Policy
 Datacenter Policy
 Log Management Policy

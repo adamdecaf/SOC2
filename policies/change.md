@@ -5,13 +5,13 @@ satisfies:
     - CC8.1
     - CC3.4
 majorRevisions:
-  - date: Jun 1 2018
+  - date: Jan 1 2020
     comment: Initial document
 ---
 
 # Purpose and Scope
 
-a. This information security policy defines how changes to information systems are planned and implemented 
+a. This information security policy defines how changes to information systems are planned and implemented
 
 a. This policy applies to the entire information security program at the organization (i.e. to all information and communications technology, as well as related documentation).
 
@@ -29,23 +29,22 @@ a. All change requests must be documented.
 
 a. All change requests must be prioritized in terms of benefits, urgency, effort required, and potential impacts to the organization’s operations.
 
-a. All implemented changes must be communicated to relevant users. 
+a. All implemented changes must be communicated to relevant users.
 
 a. Change management must be conducted according to the following procedure:
-    
-    i. *Planning*: plan the change, including the implementation design, scheduling, and implementation of a communications plan, testing plan, and roll-back plan.
-    
-    i. *Evaluation*: evaluate the change, including priority level of the service and risk that the proposed change introduces to the system; determine the change type and the specific step-by-step process to implement the change.
-    
-    i. *Review*: review the change plan amongst the CIO, ISM, Engineering Lead, and, if applicable, Business Unit Manager.
-    
-    i. *Approval*: the CIO must approve the change plan. 
-    
-    i. *Communication*: communicate the change to all users of the system.
-    
-    i. *Implementation*: test and implement the change.
-    
-    i. *Documentation*: record the change and any post-implementation issues.
-    
-    i. *Post-change review*: conduct a post-implementation review to determine how the change is impacting the organization, either positively or negatively. Discuss and document any lessons learned.
 
+    i. *Planning*: plan the change, including the implementation design, scheduling, and implementation of a communications plan, testing plan, and roll-back plan.
+
+    i. *Evaluation*: evaluate the change, including priority level of the service and risk that the proposed change introduces to the system; determine the change type and the specific step-by-step process to implement the change.
+
+    i. *Review*: review the change plan amongst the CIO, ISM, Engineering Lead, and, if applicable, Business Unit Manager.
+
+    i. *Approval*: the CIO must approve the change plan.
+
+    i. *Communication*: communicate the change to all users of the system.
+
+    i. *Implementation*: test and implement the change.
+
+    i. *Documentation*: record the change and any post-implementation issues.
+
+    i. *Post-change review*: conduct a post-implementation review to determine how the change is impacting the organization, either positively or negatively. Discuss and document any lessons learned.
