@@ -22,7 +22,3 @@ Resolve this ticket by executing the following steps:
 If the employee will be responsible for deployments create the following accounts for them
 
 - [ ] PagerDuty
-
-## Sales
-
-TODO(adam): TODO(wade): Sales job onboarding
