@@ -4,7 +4,7 @@ satisfies:
   TSC:
     - CC9.9
 majorRevisions:
-  - date: Jun 1 2018
+  - date: Jan 1 2020
     comment: Initial document
 ---
 
@@ -54,7 +54,7 @@ a. Software Development Lifecycle Policy
 
 a. System Availability Policy
 
-a. Workstation Security Policy 
+a. Workstation Security Policy
 
 # Policy
 
@@ -72,7 +72,7 @@ a. *Managing Information Security*
 
     i. The company will measure the fulfillment of all objectives. The measurement will be performed at least once per year. The results must be analyzed, evaluated, and reported to the management team.
 
-a. *Information Security Requirements* 
+a. *Information Security Requirements*
 
     i. This policy and the entire information security program must be compliant with legal and regulatory requirements as well as with contractual obligations relevant to the organization.
 

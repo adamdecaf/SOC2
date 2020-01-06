@@ -7,13 +7,13 @@ satisfies:
     - CC7.1
     - CC7.2
 majorRevisions:
-  - date: Jun 1 2018
+  - date: Jan 1 2020
     comment: Initial document
 ---
 
 # Security Architecture Narrative
 
-Here we narrate why our org satisfies the control keys listed in the YML block
+Here we narrate why our organization satisfies the control keys listed in each block
 
 # {{.Name}} Product Architecture
 
@@ -36,7 +36,8 @@ Describe product infrastructure, emphasizing security measures
 
 {{.Name}} uses the following cloud services for its internal infrastructure:
 
-- List cloud services
+- [Google Cloud Platform](https://cloud.google.com/security/compliance/soc-2/)
+- [Google G Suite](https://cloud.google.com/security/compliance/soc-2/)
 
 Access to these cloud services is limited according to the role of the {{.Name}} employee and is reviewed quarterly as well as via regular onboarding/offboarding tasks for new and departing employees.
 
@@ -46,14 +47,14 @@ Access to these cloud services is limited according to the role of the {{.Name}}
 
 - operating system must be within one generation of current
 - full-disk encryption
-- onboard antivirus/antimalware software
+- antivirus/antimalware software
 - OS and AV automatically updated
 
 Workstation compliance with these measures is evaluated on a quarterly basis.
 
 ## Remote Access
 
-Many {{.Name}} employees work remotely on a regular basis and connect to production and internal IT systems via the same methods as those employees connecting from the {{.Name}} physical office, i.e., direct encrypted access to cloud services. It is the employee's responsibility to ensure that only authorized personnel use {{.Name}} resources and access {{.Name}} systems.
+All {{.Name}} employees work remotely on a regular basis and connect to production and internal IT systems via secure protocols. It is the employee's responsibility to ensure that only authorized personnel use {{.Name}} resources and access {{.Name}} systems in their physical locations.
 
 # Access Review
 
@@ -65,9 +66,9 @@ Access to {{.Name}} infrastructure, both internal and product, is reviewed quart
 
 # {{.Name}} Physical Security
 
-{{.Name}} has one physical location, in San Francisco, CA. Key issuance is tracked by the Office Physical Security Policy Ledger. Office keys are additionally held by the lessor, property management, and custodial staff. These keys are not tracked by the Office Physical Security Policy Ledger. {{.Name}} managers regularly review physical access privileges.
+{{.Name}} has no physical locations.
 
-{{.Name}} infrastructure is located within AWS. {{.Name}} does not have physical access to AWS infrastructure.
+{{.Name}} infrastructure is located within Google Cloud Platform. {{.Name}} does not have physical access to this infrastructure.
 
 # Risk Assessment
 
@@ -79,7 +80,9 @@ The following represents the inventory of adversarial threats:
 
 |Threat|Source|Vector|Target|Likelihood|Severity|
 |----------------------------+--------------+------------+-----------------+----------+------|
-| | | | | | |
+| Targeted Attackers | | | | | |
+| Phishing | | | | | |
+| Automated Discovery | | | | | |
 
 ## Non-Adversarial Threats
 
@@ -87,7 +90,7 @@ The following represents the inventory of non-adversarial threats:
 
 |Threat|Vector|Target|Likelihood|Severity|
 |----------------------------+--------------+-------------+----------+------|
-| | | | | |
+| Outdated information systems | IT  | All computer systems | Common  | High |
 
 # References
 

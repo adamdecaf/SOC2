@@ -4,7 +4,7 @@ satisfies:
   TSC:
     - CC6.7
 majorRevisions:
-  - date: Jun 1 2018
+  - date: Jan 1 2020
     comment: Initial document
 ---
 
@@ -18,7 +18,7 @@ a. This policy applies to all users of information systems within the organizati
 
 # Background
 
-a. This policy defines the procedures for safely using  removable media, cloud storage and personally-owned devices to limit data loss or exposure.  Such forms of storage must be strictly controlled because of the sensitive data that can be stored on them. Because each of these storage types are inherently ephemeral or portable in nature, it is possible for the organization to lose the ability to oversee or control the information stored on them if strict security standards are not followed.
+a. This policy defines the procedures for safely using removable media, cloud storage and personally-owned devices to limit data loss or exposure.  Such forms of storage must be strictly controlled because of the sensitive data that can be stored on them. Because each of these storage types are inherently ephemeral or portable in nature, it is possible for the organization to lose the ability to oversee or control the information stored on them if strict security standards are not followed.
 
 a. This document consists of three sections pertaining to removable media, cloud storage, and personally-owned devices. Each section contains requirements and implementing instructions for the registration, management, maintenance, and disposition of each type of storage.
 
@@ -50,7 +50,7 @@ a. *Removable Media*
 
     i. The owner of the removable media, where practical, must ensure that an alternate or backup copy of the information located on the device exists.
 
-    i. Removable media must be stored in a safe place that has a reduced risk of fire or flooding damage. 
+    i. Removable media must be stored in a safe place that has a reduced risk of fire or flooding damage.
 
     i. If the storage item contains sensitive information, removable media must:
 
@@ -77,7 +77,7 @@ a. *Cloud Storage*
 
     i. If the cloud storage system contains sensitive information, that information must be encrypted in accordance with reference (d).
 
-    i. Data must be erased from from cloud storage systems using a technology and process that is approved by the ISM. 
+    i. Data must be erased from from cloud storage systems using a technology and process that is approved by the ISM.
 
     i. When use of a cloud storage system is discontinued, the system owner must inform the ISM so that it can be removed from reference (b).
 
@@ -120,7 +120,7 @@ a. *Personally-owned Devices*
         1. It is prohibited to:
 
             a. Allow device access for anyone except its owner.
-        
+
             a. Store illegal materials on the device.
 
             a. Install unlicensed software.
@@ -137,4 +137,4 @@ a. *Personally-owned Devices*
 
     i. The organization will pay for any new software that needs to be installed for company use.
 
-    i. All security breaches related to personally-owned devices must be reported immediately to the ISM. 
+    i. All security breaches related to personally-owned devices must be reported immediately to the ISM.

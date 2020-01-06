@@ -4,7 +4,7 @@ satisfies:
   TSC:
     - CC7.2
 majorRevisions:
-  - date: Jun 1 2018
+  - date: Jan 1 2020
     comment: Initial document
 ---
 
@@ -27,9 +27,9 @@ a. All production systems within the organization shall record and retain audit-
     i. Activities performed on the system.
 
     i. The user or entity (i.e. system account) that performed the activity, including the system that the activity was performed from.
-    
+
     i. The file, application, or other object that the activity was performed on.
-    
+
     i. The time that the activity occurred.
 
     i. The tool that the activity was performed with.
@@ -38,18 +38,18 @@ a. All production systems within the organization shall record and retain audit-
 
 a. Specific activities to be logged must include, at a minimum:
 
-    i. Information (including authentication information such as usernames or passwords) is created, read, updated, or deleted. 
+    i. Information (including authentication information such as usernames or passwords) is created, read, updated, or deleted.
 
-    i. Accepted or initiated network connections. 
+    i. Accepted or initiated network connections.
 
     i. User authentication and authorization to systems and networks.
 
     i. Granting, modification, or revocation of access rights, including adding a new user or group; changing user privileges, file permissions, database object permissions, firewall rules, and passwords.
 
     i. System, network, or services configuration changes, including software installation, patches, updates, or other installed software changes.
-  
-    i. Startup, shutdown, or restart of an application. 
-  
+
+    i. Startup, shutdown, or restart of an application.
+
     i. Application process abort, failure, or abnormal end, especially due to resource exhaustion or reaching a resource limit or threshold (such as CPU, memory, network connections, network bandwidth, disk space, or other resources), the failure of network services such as DHCP or DNS, or hardware fault.
 
     i. Detection of suspicious and/or malicious activity from a security system such as an Intrusion Detection or Prevention System (IDS/IPS), anti-virus system, or anti-spyware system.
@@ -57,7 +57,7 @@ a. Specific activities to be logged must include, at a minimum:
 a. Unless technically impractical or infeasible, all logs must be aggregated in a central system so that activities across different systems can be correlated, analyzed, and tracked for similarities, trends, and cascading effects. Log aggregation systems must have automatic and timely log ingest, event and anomaly tagging and alerting, and ability for manual review.
 
 a. Logs must be manually reviewed on a regular basis:
-  
+
     i. The activities of users, administrators and system operators must be reviewed on at least a monthly basis.
 
     ii. Logs related to PII must be reviewed on at least a monthly basis in order to identify unusual behavior.

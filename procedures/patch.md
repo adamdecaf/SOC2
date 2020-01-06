@@ -7,9 +7,7 @@ cron: "0 0 0 15 * *"
 
 Resolve this ticket by executing the following steps:
 
-- [ ] Pull the latest scripts from the Ops repository
-- [ ] Execute `ENV=staging patch-all.sh`
-- [ ] Inspect output
-    - [ ] Errors? Investigate and resolve
-- [ ] Execute `ENV=production patch-all.sh`
-- [ ] Attach log output to this ticket
+- [ ] Ensure a Docker container with the newer version has been released
+- [ ] Execute the build / deploy CI job for that project under a new git tag
+- [ ] Update application versions to be deployed and initiate a deployment
+- [ ] Attach build link to this ticket
