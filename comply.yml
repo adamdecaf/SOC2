@@ -4,5 +4,5 @@ tickets:
   github:
     repo: github.com/moov-io/SOC2
     username: moov-bot
-    # token: <token> # read via GITHUB_TOKEN
+    token: "" # this is read with GITHUB_TOKEN
 approvedBranch: ""
