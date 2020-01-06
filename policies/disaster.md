@@ -8,7 +8,8 @@ majorRevisions:
   - date: Jan 1 2020
     comment: Initial document
 ---
-#Purpose and Scope
+
+# Purpose and Scope
 
 a. The purpose of this policy is to define the organization’s procedures to recover Information Technology (IT) infrastructure and IT services within set deadlines in the case of a disaster or other disruptive incident. The objective of this plan is to complete the recovery of IT infrastructure and IT services within a set Recovery Time Objective (RTO).
 
@@ -47,7 +48,7 @@ a. *Critical Services, Key Tasks and, Service Level Agreements (SLAs)*
     i. The following services and technologies are considered to be critical for business operations, and must immediately be restored (in priority order):
 
         1. {{ .Name }} Hosted API
-        1. Infrastructure services supporting Moov services
+        1. Infrastructure services supporting {{ .Name }} services
 
     i. The following key tasks and SLAs must be considered during a disaster recovery event, in accordance with the organization’s objectives, agreements, and legal, contractual or regulatory obligations:
 
@@ -82,11 +83,9 @@ a. A list of relevant points of contact both internal and external to the organi
 
 a. During a crisis, it is vital for certain recovery tasks to be performed right away. The following actions are pre-authorized in the event of a disaster recovery event:
 
-    TODO(adam)
-
     i. Senior Software Engineers must take all steps specified in this disaster recovery plan in order to recover the organization’s information technology infrastructure and services.
 
-    <!-- i. CEO is authorized to make urgent purchases of equipment and services up to $100,000. -->
+    i. CEO is authorized to make urgent purchases of equipment and services up to $100,000.
 
     i. CEO is authorized to communicate with clients.
 
