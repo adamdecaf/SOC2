@@ -36,7 +36,8 @@ Describe product infrastructure, emphasizing security measures
 
 {{.Name}} uses the following cloud services for its internal infrastructure:
 
-- Google Cloud Platform TODO(adam): link to their policy page?
+- [Google Cloud Platform](https://cloud.google.com/security/compliance/soc-2/)
+- [Google G Suite](https://cloud.google.com/security/compliance/soc-2/)
 
 Access to these cloud services is limited according to the role of the {{.Name}} employee and is reviewed quarterly as well as via regular onboarding/offboarding tasks for new and departing employees.
 
