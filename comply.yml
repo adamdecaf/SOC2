@@ -3,6 +3,6 @@ filePrefix: moov
 tickets:
   github:
     repo: github.com/moov-io/SOC2
-    token: <token>
     username: moov-bot
+    # token: <token> # read via GITHUB_TOKEN
 approvedBranch: ""
