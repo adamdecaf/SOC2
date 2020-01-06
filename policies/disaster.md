@@ -127,6 +127,11 @@ External Contacts
 
 # Appendix B: Recovery Steps for Information Systems Infrastructure & Services
 
+Prior to attempting a restore or disaster recovery ensure your workstation is setup according to the following guides:
+
+- [gcloud](https://github.com/moov-io/infra/blob/master/docs/google-cloud.md#credentials)
+- [kubectl](https://kubernetes.io/docs/tasks/tools/install-kubectl/)
+
 TODO(adam)
 
 Specific recovery procedures are described in detail below:
