@@ -47,7 +47,7 @@ Yes please! Please start by reviewing our [Code of Conduct](https://github.com/m
 
 You only have a fresh set of eyes once! The easiest way to contribute is to give feedback on the documentation that you are reading right now. This can be as simple as sending a message to our Google Group with your feedback or updating the markdown in this documentation and issuing a pull request.
 
-- [about.moov.io/soc2](https://about.moov.io/soc2) (This project)
+- [moov.io/soc2](https://moov.io/soc2) (This project)
 
 ## License
 
