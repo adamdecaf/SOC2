@@ -4,7 +4,7 @@
 [![Apache 2 licensed](https://img.shields.io/badge/license-Apache2-blue.svg)](https://raw.githubusercontent.com/moov-io/SOC2/master/LICENSE)
 
 
-This repository consolidates all documents related to Moov's SOC2 audit and compliance policies.
+This repository consolidates all documents related to Moov's SOC2 audit and compliance policies using [strongdm's comply framework](https://github.com/strongdm/comply).
 
 # Structure
 
